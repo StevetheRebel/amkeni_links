@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-background': "url('./public/Amkeni.webp')"
+        'custom-background': "url('./Amkeni.webp')"
       },
       backgroundColor: {
         'amkeniBlue': "#84caea"
