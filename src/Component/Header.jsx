@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/Amkeni Brand.png'
+import logo from '../../public/Amkeni Brand.png'
 
 function Header() {
   return (
