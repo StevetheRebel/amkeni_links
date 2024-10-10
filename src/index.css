@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Stint Ultra Condensed", serif;
+        font-weight: 500;
+        /* letter-spacing: 1px; */
+    }
+}
