@@ -9,7 +9,7 @@ function Link({ href, url, user }) {
       className="border-2 border-dotted border-amkeniBlue mx-4 rounded-xl p-2 flex justify-between items-center hover:bg-amkeniBlue hover:border-solid hover:transition-all duration-300 hover:tracking-[2px]"
     >
       <SocialIcon url={url} />
-      <p className="text-xl sm:text-2xl lg:text-3xl">{user}</p>
+      <p className="text-xl sm:text-2xl lg:text-3xl hover:underline">{user}</p>
     </a>
   );
 }
