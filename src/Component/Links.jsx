@@ -19,7 +19,7 @@ function Links() {
         />
         <Link
           url={"www.tiktok.com"}
-          user={"amkeniyouth"}
+          user={"Amkeni Malindi Org"}
           href={"https://www.tiktok.com/@amkenimalindiorg?lang=en"}
         />
         <Link
