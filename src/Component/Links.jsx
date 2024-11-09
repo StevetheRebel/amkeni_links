@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "./Link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fas } from "@awesome.me/kit-KIT_CODE/icons";
 
 function Links() {
   return (
@@ -18,7 +20,7 @@ function Links() {
         <Link
           url={"www.tiktok.com"}
           user={"amkeniyouth"}
-          href={"https://www.tiktok.com/@amkenimalindi?lang=en"}
+          href={"https://www.tiktok.com/@amkenimalindiorg?lang=en"}
         />
         <Link
           url={"www.x.com"}
@@ -35,6 +37,9 @@ function Links() {
           user={"Amkeni Malindi Organization"}
           href={"https://amkenimalindi.wordpress.com/"}
         />
+        <div className="border-2 border-green-500">
+          <FontAwesomeIcon icon={fas.faHouse} />
+        </div>
       </div>
     </div>
   );
